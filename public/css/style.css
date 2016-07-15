@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+a{text-decoration: none !important;}
+a:hover{text-decoration: none !important;}
+a:focus{outline: none;}
+
+.center{text-align: center;}
+
+.navbar-default{
+	background-color: rgb(34,21,38) !important;
+	border-color: rgb(224,224,234) !important;
+}
+.panel{
+	background-color: rgb(34,21,38) !important;
+	color: rgb(224,224,234) !important;
+	border-color: rgb(44,29,48) !important;
+	opacity: 0.8;
+}
+.panel-heading{
+	background-color: rgb(69,60,81) !important;
+	color: rgb(34,21,38) !important;
+	border-color: rgb(44,29,48) !important;
+}
+.panel-footer{
+	background-color: rgb(86,70,96) !important;
+	color: rgb(34,21,38) !important;
+	border-color: rgb(44,29,48) !important;
+}
+.list-group-item{background-color: rgb(34,21,38) !important;}
+.left-nav > li{
+	color: rgb(224,224,234) !important;
+}
+.left-nav > ul > li > a{
+	color: rgb(224,224,234) !important;
+}
+.left-nav > ul > li:hover > a{
+	color: rgb(34,21,38) !important;
+	background-color: rgb(69,60,81) !important;
+}
+.left-nav > ul > li.active > a, .left-nav > ul > li.active > a:focus, .left-nav > ul > li.active > a:hover{
+	background-color: rgb(69,60,81) !important;
+	outline: none;
+}
+/* Introduction */
+
+#container-intro{
+	opacity: 0;
+}
+
+#block{
+	background-color: rgb(224,224,234) !important;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(86,70,96);
+	margin: 150px; 
+	background-color: white;
+	width: 50%;
+	height: 300px;
+	transition: background-color 0.8s ease;
+}
+#block p{
+	font-size: 60px;
+	opacity: 0;
+}
+#block:hover{
+	color: rgb(224,224,234);
+	background-color: rgb(86,70,96) !important;
+}
+
+.icon-intro{text-decoration: none !important;margin-top: 20px;font-size: 100px}
+
+/* Portfolio */
+
+.left-nav{
+	margin-top: 30px;
+}
+
+.pill{
+	opacity: 0;	
+}
+
+.section{
+	margin-top: 40px;
+}
+
+.box{
+	margin-top: 30%;
+	position: fixed;
+	opacity: 0;
+}
+.box > a{
+	color: rgb(224,224,234) !important;
+}
+.box > a:focus{
+	outline: none;
+}
+.large-circle{
+	width:120px;
+	height:120px;
+	border-radius: 50%;
+	border: 2px solid;
+	background-color: rgb(34,21,38);
+	text-align: center;
+}
+.large-circle:hover{
+	background-color: rgb(224,224,234);
+	color: rgb(34,21,38);
+}
+.large-circle > h3{
+	padding: 25px;
+	text-decroation: none;
+}

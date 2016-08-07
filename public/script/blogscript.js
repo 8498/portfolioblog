@@ -1,5 +1,4 @@
 var section = document.getElementById('section');
-
 $( document ).ready(function(){
 $.ajax({
 	type: "GET",
@@ -7,7 +6,6 @@ $.ajax({
 	datatype: "JSON",
 	success: function( response ){
 		response.forEach(function(data){
-			console.log(data);
 			var article = document.createElement('article');
 			article.id= "posts-"+data.categoryName;
 			article.className = "tab-pane fade";
